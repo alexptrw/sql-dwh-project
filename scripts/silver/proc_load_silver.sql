@@ -53,7 +53,8 @@ BEGIN
 		ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) as flag
 		FROM bronze.crm_cust_info
 		WHERE cst_id IS NOT NULL
-		) as ranked_cst;
+		) as ranked_cst
+		WHERE flag = 1; 
 		SET @end_time = GETDATE();
 		PRINT '>>Load Duraton :  ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '>> --------------------------------------';
