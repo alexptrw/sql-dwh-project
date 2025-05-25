@@ -40,7 +40,7 @@ BEGIN
 			TABLOCK
 		);
 		SET @end_time = GETDATE();
-		PRINT '>>Load Duraton :  ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds'
+		PRINT '>>Load Duraton :  ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '>> --------------------------------------';
 		SET @start_time = GETDATE();
 		PRINT '>> Truncating Table: bronze.crm_prd_info';
