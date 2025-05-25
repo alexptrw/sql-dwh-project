@@ -49,10 +49,10 @@ BEGIN
 				   ELSE 'n/a'
 			  END cst_marital_status,
 			  cst_create_date
-		FROM (
-		SELECT *,
+		FROM (SELECT *,
 		ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) as flag
-		FROM [bronze].[crm_cust_info]
+		FROM bronze.crm_cust_info
+		WHERE cst_id IS NOT NULL
 		) as ranked_cst;
 		SET @end_time = GETDATE();
 		PRINT '>>Load Duraton :  ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
