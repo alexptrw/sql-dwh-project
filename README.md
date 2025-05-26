@@ -19,4 +19,4 @@ Resources and Tools Used:
      
 # 👋 About Me
 Hi, I'm Aleks — a Data Automation Specialist with a passion for all things data. I'm always looking for opportunities to broaden my knowledge and explore new tools, technologies, and concepts in the data space. This project is part of my ongoing journey to keep learning and growing in the field.
-🔗 Feel free to connect with me on LinkedIn [https://www.linkedin.com/in/aleksandra-petrova-a582351b2/]
+🔗 Feel free to connect with me on LinkedIn (https://www.linkedin.com/in/aleksandra-petrova-a582351b2/)
