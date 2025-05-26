@@ -4,9 +4,9 @@ This is a guided, hands-on project from DataWithBaraa designed to build a modern
 
 # 🏗️ Data Architecture
 Medallion Architecture 
-   Bronze Layer - Raw data, full bulk load from the csv files into table, not transformation
-   Silver Layer - Full load from bronze into table. Data is tranformed here.
-   Gold Layer - No load. Using the tranformed data to create business-ready data views
+   - Bronze Layer - Raw data, full bulk load from the csv files into table, not transformation
+   - Silver Layer - Full load from bronze into table. Data is tranformed here.
+   - Gold Layer - No load. Using the tranformed data to create business-ready data views
 
 # 🛠️ Specifications
 Resources and Tools Used:
