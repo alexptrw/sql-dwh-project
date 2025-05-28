@@ -16,6 +16,16 @@ Resources and Tools Used:
    - Project Tracking & Notes: https://www.notion.so
    - Data Models: Star schema
    - Version Control: GitHub
+
+#📌 Key Learnings
+  I genuinely enjoyed working on this project — it helped me consolidate and apply the concepts I’ve been learning in a structured, hands-on way. One of the practical takeaways was the value of printing log messages during data loading, which made debugging and workflow tracking much clearer.
+
+   This project also deepened my understanding of:
+   - How to design and implement a Medallion Architecture (Bronze, Silver, Gold layers)
+   - What to look for when performing data transformations and ensuring data quality
+   - The importance of clear data modeling and schema design (like Star Schema) for analytics
+   - Structuring a data pipeline from raw ingestion to business-ready reporting
+   - Overall, this experience improved both my technical skills and the way I think about data architecture and workflow management.
      
 # 👋 About Me
 Hi, I'm Aleks — a Data Automation Specialist with a passion for all things data. I'm always looking for opportunities to broaden my knowledge and explore new tools, technologies, and concepts in the data space. This project is part of my ongoing journey to keep learning and growing in the field.
