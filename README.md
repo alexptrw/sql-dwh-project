@@ -9,7 +9,7 @@ Medallion Architecture
    - Gold Layer - No load. Using the tranformed data to create business-ready data views
 
 # 🛠️ Specifications
-Resources and Tools Used:
+- Resources and Tools Used:
    - Data Sources: CSV files
    - Environment: SQL Server Management Studio (SSMS)
    - Diagrams & Visuals: https://draw.io
@@ -18,7 +18,7 @@ Resources and Tools Used:
    - Version Control: GitHub
 
 #📌 Key Learnings
-  I genuinely enjoyed working on this project — it helped me consolidate and apply the concepts I’ve been learning in a structured, hands-on way. One of the practical takeaways was the value of printing log messages during data loading, which made debugging and workflow tracking much clearer.
+  - I genuinely enjoyed working on this project — it helped me consolidate and apply the concepts I’ve been learning in a structured, hands-on way. One of the practical takeaways was the value of printing log messages during data loading, which made debugging and workflow tracking much clearer.
 
    This project also deepened my understanding of:
    - How to design and implement a Medallion Architecture (Bronze, Silver, Gold layers)
