@@ -17,7 +17,7 @@ Medallion Architecture
    - Data Models: Star schema
    - Version Control: GitHub
 
-#📌 Key Learnings
+# 📌 Key Learnings
   - I genuinely enjoyed working on this project — it helped me consolidate and apply the concepts I’ve been learning in a structured, hands-on way. One of the practical takeaways was the value of printing log messages during data loading, which made debugging and workflow tracking much clearer.
 
    This project also deepened my understanding of:
